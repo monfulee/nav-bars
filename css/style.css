@@ -159,8 +159,13 @@ footer{
 }
 .footer-left li a, .footer-right li a{
 	color: #727272;
+	font-size: 14px;
 }
-
+/*TO DO LIST
+1) ADD HOVER ATRIBUTES FOOTER*/
+.footer-left li a:hover, .footer-right li a:hover{
+	text-decoration: underline;
+}
 
 
 
