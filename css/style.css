@@ -49,4 +49,83 @@ header{
 	background-color: rgba(66, 133, 244, 0.9);
 	cursor: pointer;
 }
-hello
+/*google logo, search bar and buttons*/
+.google-logo{
+	max-width: 550px;
+}
+.google-logo img{
+	max-width: 100%;
+}
+/*search bar*/
+.container{
+	margin: 0;
+	padding: 0;
+	width: 580px;
+	height: 50px;
+	border-radius: 50px;
+	border:1px solid #9aa0a6;
+	padding: 0 2%;
+}
+.elements-container{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	text-align: center;
+}
+.search{
+	width: 100%;
+	height: 42px;
+	font-size: 16px;
+	padding: 0 1%;
+	border:none;
+}
+.search:focus{
+	outline: none;
+}
+.search-icon{
+	background-color: transparent;
+	border:none;
+	font-size: 15px;
+	color: #9aa0a6;
+}
+.search-icon:hover{
+	cursor: pointer;
+}
+.mic-icon img{
+	max-width: 15px;
+	height: auto;
+}
+
+/*buttons*/
+.buttons-container{
+	border:1px solid purple;
+	width: 580px;
+	height: auto;
+	text-align: center;
+}
+.buttons-container button{
+	height: 34px;
+	width: auto;
+	padding:0 2%;
+	background-color: #f7f7f7;
+	border:none;
+	border-radius: 3px;
+	color: #5f6368;
+}
+.buttons-container button:hover{
+	color: #000;
+	border: 1px solid #8c8c8c;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
