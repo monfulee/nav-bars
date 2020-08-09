@@ -50,15 +50,22 @@ header{
 	cursor: pointer;
 }
 /*google logo, search bar and buttons*/
+.main-container{
+	position: absolute;
+	top:36%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	//border:1px solid black;
+}
 .google-logo{
-	max-width: 550px;
+	max-width: 280px;
+	margin: auto;
 }
 .google-logo img{
 	max-width: 100%;
 }
 /*search bar*/
 .container{
-	margin: 0;
 	padding: 0;
 	width: 580px;
 	height: 50px;
@@ -98,7 +105,6 @@ header{
 
 /*buttons*/
 .buttons-container{
-	border:1px solid purple;
 	width: 580px;
 	height: auto;
 	text-align: center;
@@ -111,12 +117,31 @@ header{
 	border:none;
 	border-radius: 5px;
 	color: #5f6368;
+	font-size: 15px;
 }
-.buttons-container button:hover{
+.buttons-container button, .buttons-container a{
+	margin: 0 5px;
+}
+.buttons-container button:hover, .buttons-container a:hover{
 	color: #000;
 	border: 1px solid #8c8c8c;
 	cursor: pointer;
 }
+.buttons-container a{
+	padding: 7px 2%;
+	background-color: #f7f7f7;
+	border:none;
+	border-radius:5px;
+	color: #5f6368;
+	font-size: 15px;
+}
+
+/*margin in between*/
+.google-logo, .container, .buttons-container{
+	//border:1px solid red;
+	margin-top: 30px;
+}
+
 
 
 
